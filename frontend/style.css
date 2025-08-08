@@ -1,0 +1,32 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to right, #ffe4ec, #ffe4f0);
+    color: #d63384;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+}
+input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ffb6c1;
+    border-radius: 10px;
+    font-size: 16px;
+}
+button {
+    background: #ff69b4;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background: #ff85c1;
+}
