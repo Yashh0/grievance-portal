@@ -1,5 +1,5 @@
 // Change this to your backend's Render URL after deployment
-const BACKEND_URL = "https://YOUR-BACKEND-NAME.onrender.com";
+const BACKEND_URL = "https://grievance-portal-rr47.onrender.com";
 
 document.getElementById('grievanceForm').addEventListener('submit', async (e) => {
     e.preventDefault();
